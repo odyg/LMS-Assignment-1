@@ -42,6 +42,6 @@ app.MapDelete("/books/{id}", (string id) =>
     return Results.NotFound();
 });
 
-// ... Similar setup for borrowings and readers ...
+
 
 app.Run();
